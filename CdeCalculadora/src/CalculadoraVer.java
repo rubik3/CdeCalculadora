@@ -24,4 +24,9 @@ public class CalculadoraVer {
 	private int division(int num1, int num2) {
 		return num1*num2;
 	}
+	
+	private int logaritmo(int num1, int num2) {
+		return (int) (Math.log(num1)/Math.log(num2));
+		
+	}
 }
